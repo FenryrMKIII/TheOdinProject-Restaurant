@@ -4,6 +4,7 @@
 export function loadHomePage() {
     const content = document.getElementById('content');
     if (!content) return;
+    
     content.innerHTML = '';
 
     // Navigation menu (add to header)

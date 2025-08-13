@@ -63,6 +63,7 @@ function createMenuList(items) {
 }
 
 export function loadMenuPage() {
+    console.log("hello mothafucka")
     const content = document.getElementById('content');
     if (!content) return;
     content.innerHTML = '';

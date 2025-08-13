@@ -3,6 +3,7 @@ import { loadMenuPage } from './menu.js';
 import "./style.css";
 
 function setupNavListeners() {
+    
     // Handles nav in both header and homepage grid
     document.addEventListener('click', (e) => {
         if (e.target.matches('button')) {
